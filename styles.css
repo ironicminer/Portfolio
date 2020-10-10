@@ -1,0 +1,31 @@
+
+body{
+    background-image: url("port-bg.jpg");
+    background-size: cover;
+    
+    
+}
+.myname{
+    margin-right: 50%;
+}
+.footer{
+    
+    width: auto;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.row{
+    position: flex;
+    
+    
+}
+p{
+    
+    color:black;
+    background-color: white;
+    padding-left: 10px;
+}
+h1{
+    color: white;
+}
