@@ -9,10 +9,16 @@ body{
     margin-right: 50%;
 }
 .footer{
-    
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    background-color: rgb(54, 54, 54);
     width: auto;
-    max-width: 100%;
-    padding: 0 15px;
+    width: 100%;
+    
+}
+#body1{
+    margin-top: 100px;
 }
 
 .row{
@@ -20,12 +26,19 @@ body{
     
     
 }
-p{
+#footer-text{
+    color: dimgray;
+    
+    text-align: center;
+}
+.par{
     
     color:black;
     background-color: white;
     padding-left: 10px;
 }
 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: greenyellow;
     color: white;
 }
