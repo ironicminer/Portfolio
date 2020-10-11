@@ -1,44 +1,44 @@
-
-body{
-    background-image: url("port-bg.jpg");
-    background-size: cover;
-    
-    
+body {
+  background-image: url("port-bg.jpg");
+  background-size: cover;
 }
-.myname{
-    margin-right: 50%;
+.myname {
+  margin-right: 50%;
 }
-.footer{
-    position: absolute;
-    bottom: 0;
-    height: 60px;
-    background-color: rgb(54, 54, 54);
-    width: auto;
-    width: 100%;
-    
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  background-color: rgb(54, 54, 54);
+  width: auto;
+  width: 100%;
 }
-#body1{
-    margin-top: 100px;
+#body1 {
+  /*margin-top: 100px;
+  margin-bottom: 20px;
+  */
 }
 
-.row{
-    position: flex;
-    
-    
+.row {
+  position: flex;
 }
-#footer-text{
-    color: dimgray;
-    
-    text-align: center;
+#footer-text {
+  color: dimgray;
+
+  text-align: center;
 }
-.par{
-    
-    color:black;
-    background-color: white;
-    padding-left: 10px;
+.par {
+  color: black;
+  background-color: white;
+  padding-left: 10px;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    border-color: greenyellow;
-    color: white;
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+
+  color: white;
+}
+.a {
+  padding: flex;
+  margin: flex;
+  border: 2px solid black;
 }
