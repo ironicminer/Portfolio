@@ -1,6 +1,8 @@
 body {
-  background-image: url("port-bg.jpg");
+  /*background-image: url("port-bg.jpg");*/
+  background-color: #71ebc8;
   background-size: cover;
+  background-attachment: fixed;
 }
 .myname {
   margin-right: 50%;
@@ -18,7 +20,14 @@ body {
   margin-bottom: 20px;
 }
 .port {
-  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+  color: rgb(161, 175, 189);
+  background-color: rgb(65, 78, 78);
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 5px 5px 18px #202020;
 }
 .direct {
   color: black;
@@ -31,15 +40,37 @@ body {
 
   text-align: center;
 }
+a:hover {
+  background-color: #d1eb71;
+}
+.button:hover {
+  background-color: #d1eb71;
+}
 .par {
+  font-weight: bold;
+  text-align: justify;
+  border-radius: 50px;
   color: black;
-  background-color: white;
+  background-color: #d1eb71;
   padding-left: 10px;
+  white-space: pre-wrap;
+  box-shadow: 5px 5px 18px #202020;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-
-  color: white;
+  display: flex;
+  background-color: #d1eb71;
+  font-weight: bold;
+  text-align: justify;
+  box-shadow: 5px 5px 18px #202020;
+  padding-left: 2px;
+  border-radius: 10px;
+  color: #8b71eb;
+}
+.langs {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
 }
 .a {
   padding: flex;
