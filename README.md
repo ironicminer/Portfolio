@@ -2,5 +2,5 @@
 
 ---
 
-> This is my ever-evolving portfolio.
-> ![Image](portscrnshot.png)
+> This is my ever-evolving portfolio. Where I showcase my projects.
+> ![Image](portscreenshot.png)
